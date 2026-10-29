@@ -1,0 +1,90 @@
+---
+title: "Reproducing Ghana's 2005/06 Poverty Profile"
+subtitle: "DEP815 Lecture 02 Lab, Group B (GLSS 5)"
+author: "<NAME 1>, <NAME 2>, <NAME 3>"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    embed-resources: true
+---
+
+## 1. GLSS 5 sampled 8,687 households in 580 areas over 2005/06
+
+- Nationally representative survey, about one year of fieldwork
+- 8,687 households, 36,500 usual members, 580 enumeration areas (13–15 households each)
+- Weighted: 5.5 million households, 22.2 million persons
+- Policy context: *(add the 2005/06 poverty-reduction context from GSS 2007)*
+
+## 2. Welfare is built in three steps, from spending to adult equivalents
+
+Nominal consumption → price deflator (region, locality, month) → adult equivalents
+
+- Included: food, imputed food, other and imputed non-food spending
+- Rent, durables, vehicles, health, ceremonies: *(confirm against our file)*
+- Units: old cedis, ¢10,000 = GH¢1
+
+## 3. Poverty lines price a 2,900 kcal food basket plus non-food needs
+
+- Old method (2006 prices): upper GH¢370.89, extreme GH¢288.47
+- New method: GLSS 6 lines, welfare deflated to 2012/13 prices
+- Lines are per adult equivalent per year
+
+## 4. Person weights and the survey design change the answer
+
+- PSUs: 580 clusters; weight = household weight × household size
+- Poverty is a share of **persons**, not households
+- Strata: *(to confirm)*
+
+## 5. Headline: our estimates against the official figures
+
+| | Official | Ours (95% CI) |
+|---|---|---|
+| Old: P0 | 28.5% | *to complete* |
+| Old: extreme | 18.2% | *to complete* |
+| New: P0 | 31.9% | *to complete* |
+| New: P1 | 11.0 | *to complete* |
+| New: extreme | 16.5% | *to complete* |
+
+## 6. Poverty is concentrated in particular places
+
+*(Insert T4 and T5: P0 and P1 by locality and region, plus each locality's contribution C0. Check Rural Savannah against 64.2%.)*
+
+## 7. The Engel curve shows food share falling as welfare rises
+
+*(Insert T7 figure: food share by welfare quintile. Explain why the upper line exceeds the extreme line.)*
+
+## 8. Sensitivity check: per capita welfare changes P0
+
+*(Report change in P0 when welfare is per capita rather than per adult equivalent.)*
+
+## 9. Reproduction gaps: what we could not match, and why
+
+- Missing from our files so far: deflator, urban/rural, file welfare variable, strata
+- *(List remaining gaps with evidence once estimates are done)*
+
+## 10. Group task: the old and new methods differ by about 3.4 points
+
+Old 28.5% vs new 31.9% headcount, yet extreme poverty falls from 18.2% to 16.5%.
+
+- Steps to decompose: basket, deflator (about 2.9), poverty line
+- *(Insert our step-by-step decomposition)*
+
+## 11. Policy implications for targeting
+
+- *(Message 1: where the poor live, from C0)*
+- *(Message 2: regional allocation, e.g. LEAP targeting)*
+- *(Message 3: cost of closing the gap, from P1)*
+
+## 12. Limitations and lessons
+
+- What we would do differently
+- Data and design limits
+
+## References
+
+Ghana Statistical Service (2007). *Pattern and trends of poverty in Ghana, 1991–2006*. GSS.
+
+Ghana Statistical Service (2018). *GLSS 7: Poverty trends in Ghana, 2005–2017*. GSS.
+
+Cooke, E., Hague, S., & McKay, A. (2016). *The Ghana poverty and inequality report*. UNICEF Ghana.
